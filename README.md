@@ -50,3 +50,23 @@ jupyter lab Exploring_Metis_Data.ipynb
 <jupyter lab Exploring_Metis_Data.ipynb>
 
 Run the cells sequentially to perform the data discovery, processing, and visualization.
+
+**Notes & Troubleshooting**
+
+METISMap: This tutorial uses a temporary implementation of METISMap. In the future, this class will be natively integrated into SunPy.
+
+Units: You might see a SunpyMetadataWarning regarding the "MSB" unit (Mean Solar Brightness). This is expected as MSB is a non-standard FITS unit; the notebook handles this by setting a compliant dimensionless unit.
+
+**Acknowledgements & Contact**
+This tutorial is maintained by the Metis Python Working Group. 
+
+Contact:  giovanna.jerse@inaf.it
+          aleksandr.burtovoi@unifi.it
+          alessandro.liberatore@inaf.it
+          yara.deleo@inaf.it
+          roberto.susino@inaf.it
+
+
+Metis Page: https://metis.oato.inaf.it/
+
+
