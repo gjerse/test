@@ -2,23 +2,23 @@
 
 **Exploring Metis Data within the SunPy Ecosystem**
 
-This Data Analysis Tutorial for Metis will guide you through getting hold of Metis data from the ESA Solar Orbiter Archive (SOAR). We will describe the different types of Metis Level-2 data products, how to visualize them, and how to build multi-instrument composites.
+This Data Analysis Tutorial for Metis will guide you through the complete lifecycle of coronagraphic data: from discovery in the Solar Orbiter Archive (SOAR) to the creation of advanced multi-instrument composites.
 
 ---
-**Run in Binder**
+**Run in COLAB**
 
-This notebook can be run online in Colav without any local installation. It’s the fastest way to get started:
+This notebook can be run online in Colab without any local installation. It’s the fastest way to get started:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ISRO-ESA-Heliophysics-Workshop/hands-on-materials/blob/main/solar-orbiter/metis/Metis_ISRO_ESA_DataWorkshop.ipynb)
  
 ---
-**Prerequisites**
+**Run locally:**
+Prerequisites
 
 The notebook relies on the standard Solar Physics Python stack. Python 3.9+ is recommended with the following packages:
 
-- sunpy, sunpy-soar, astropy, matplotlib, numpy, drms, zeep, cmcrameri, scipy, ipython, jupyterlab
+- sunpy, sunpy-soar, astropy, matplotlib, numpy, drms, zeep, cmcrameri, scipy
 
----
 **Installation & Setup**
 
 1. Install via pip
@@ -28,7 +28,7 @@ pip install sunpy[all] sunpy-soar astropy matplotlib numpy drms zeep cmcrameri s
 ```   
 
 
-3. Get the **MetisMap**
+2. Get the **MetisMap**
 Clone the repository containing the Metis Map to your local machine:
 
 ``` bash
